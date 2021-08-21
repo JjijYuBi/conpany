@@ -5,7 +5,7 @@ header h1 {position: absolute; left: 30px; top: 0; z-index: 31;}
 header > ul {display: flex; background: #f2f2f2; position: absolute; right: 30px; top: 0; width: 170px; z-index: 30;}
 header > ul li {flex: 1; padding: 0 0 0 18px; line-height: 70px;}
 
-header > ul li a:before {content: ""; display: inline-block; width: 23px; height: 23px; background: url("../icon.png") no-repeat; vertical-align: middle;}
+header > ul li a:before {content: ""; display: inline-block; width: 23px; height: 23px; background: url("icon.png") no-repeat; vertical-align: middle;}
 header > ul li:first-child a:before {background-position: 0 0;}
 header > ul li:last-child a:before {background-position: -23px 0;}
 
